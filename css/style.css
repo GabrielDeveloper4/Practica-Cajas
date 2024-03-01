@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: bold;
+    font-family: sans-serif;
+    min-width: 434px;
+    height: 100vh;
+    padding: 10px;
+    background-color: burlywood;
+    color: white;
+}
+
+p {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    height: 65%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0px;
+}
+
+header {
+    width: 100%;
+    height: 15%;
+    padding: 0 10px  0px 0px;
+    border: 2px dashed;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.3rem;
+    transition: 0.5s;
+
+}
+.cabecera_txt{
+    transition: 0.5s;
+    padding: 0px 10px;
+}
+.cabecera_txt:hover{
+    background: white;
+    color: black;
+}
+
+nav {
+    width: fit-content;
+    padding: 10px;
+    height: 50%;
+    border: 2px white dashed;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+    transition: 0.5s;
+}
+nav:hover{
+    background-color: white;
+    color: black;
+}
+aside {
+    border-radius: 10px;
+    width: 30%;
+    height: 100%;
+    border: 2px brown dashed;
+    background-color: brown;
+    color: white;
+    float: left;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100%;
+    transition: 0.5s;
+}
+aside:hover{
+    background-color: white;
+    color: brown;
+}
+
+section {
+    width: 70%;
+    height: 100%;
+    border: 2px  dashed;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+section:hover{
+    background-color: white;
+}
+article {
+    border: 2px solid indianred;
+    color: indianred;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    height: 32%;
+    flex-basis: 150px;
+    font-size: 1rem;
+    margin: 0;
+    transition: 0.5s;
+
+}
+article:hover{
+    background-color: indianred;
+    color: white;
+}
+
+
+footer {
+    width: 100%;
+    height: 20%;
+    border: 2px dashed;
+    border-radius: 0 0 20px 20px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    transition: 0.5s;
+    margin-bottom: 10px;
+    color: black;
+}
+footer:hover{
+    background-color: black;
+    color: white;
+
+}
